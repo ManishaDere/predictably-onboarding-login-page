@@ -1,13 +1,13 @@
-body {
-    background-color: #F6F7FB !important;
+html > body {
+    background-color: #F6F7FB;
 }
 .panel-heading {
     border-bottom-width: 0px;
     margin: auto;
-    padding-top: 60px !important;
+    padding-top: 60px;
 }
 .panel-default>.panel-heading {
-    background-color: #FFFFFF !important;
+    background-color: #FFFFFF;
     border: 0px #FFFFFF;
 }
 .box {
@@ -28,16 +28,16 @@ body {
 }
 .btn-primary {
     color: #fff;
-    background-color: #50C14F !important;
-    border-color: #50C14F !important;
+    background-color: #50C14F;
+    border-color: #50C14F;
 }
 a {
-    color: #468DDD !important;
-    text-decoration: underline !important;
+    color: #468DDD;
+    text-decoration: underline;
     font-size: 16px;
 }
 .custom-row {
-    padding-top: 70px !important;
+    padding-top: 70px;
 }
 /* Extra Small Devices, Phones */
 
@@ -46,14 +46,14 @@ a {
 
 @media only screen and (max-width: 767px) {
     h1 {
-        font-size: 20px !important;
+        font-size: 20px;
     }
 }
 /* Small Devices and below */
 
 @media only screen and (max-width: 991px) {
     h1 {
-        font-size: 22px !important;
+        font-size: 22px;
     }
 }
 /* Medium Devices and below */
