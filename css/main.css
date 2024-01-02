@@ -1,61 +1,69 @@
 body {
-    background-color: #F6F7FB;
+  background-color: #f6f7fb;
 }
 .panel-heading {
-    border-bottom-width: 0px;
-    margin: auto;
-    padding-top: 60px;
+  border-bottom-width: 0px;
+  margin: auto;
+  padding-top: 60px;
 }
-.panel-default>.panel-heading {
-    background-color: #FFFFFF;
-    border: 0px #FFFFFF;
+.panel-default > .panel-heading {
+  background-color: #ffffff;
+  border: 0px #ffffff;
 }
 .box {
-    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 1);
 }
 .horizontally-center {
-    margin-bottom: 15px;
-    margin: auto;
-    width: 60%;
+  margin-bottom: 15px;
+  margin: auto;
+  width: 60%;
 }
 .panel-heading h1 {
-    padding-top: 25px;
-    margin-bottom: 55px;
+  padding-top: 25px;
+  margin-bottom: 55px;
 }
 .form-control {
-    height: 45px !important;
-    margin-bottom: 32px;
+  height: 45px !important;
+  margin-bottom: 32px;
 }
 .btn-primary {
-    color: #fff;
-    background-color: #50C14F;
-    border-color: #50C14F;
+  color: #fff;
+  background-color: #50c14f;
+  border-color: #50c14f;
 }
 a {
-    color: #468DDD;
-    text-decoration: underline;
-    font-size: 16px;
+  color: #468ddd;
+  text-decoration: underline;
+  font-size: 16px;
 }
 .custom-row {
-    padding-top: 70px;
+  padding-top: 70px;
 }
-/* Extra Small Devices, Phones */
 
-@media only screen and (max-width: 480px) {}
-/* Extra Small Devices,phones and below*/
-
-@media only screen and (max-width: 767px) {
-    h1 {
-        font-size: 20px;
-    }
-}
-/* Small Devices and below */
-
-@media only screen and (max-width: 991px) {
-    h1 {
-        font-size: 22px;
-    }
-}
 /* Medium Devices and below */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .panel-heading h1 {
+    color: blue;
+  }
+}
 
-@media only screen and (max-width: 1199px) {}
+/* Medium Devices tablets */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .panel-heading h1 {
+    color: orange;
+  }
+}
+
+/* Small devices sm phones*/
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .panel-heading h1 {
+    color: green;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .panel-heading h1 {
+    color: red;
+  }
+}
